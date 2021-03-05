@@ -5,12 +5,18 @@
 }
 
 body {
-    background-color: bisque;
+    /* background-color: bisque; */
     width: 70vw;
     min-width: 300px;
     height: 100vh;
     margin: auto;
     font-family: 'Montserrat', sans-serif;
+}
+
+header,
+main,
+footer {
+    background-color: bisque;
 }
 
 header {
@@ -26,7 +32,10 @@ main {
 }
 
 footer {
+    display: flex;
     height: 10vh;
+    background-color: gray;
+    padding-top: 20px;
 }
 
 .profileInfo {
@@ -53,6 +62,7 @@ footer {
 
 .contacts,
 .avatar {
+    text-align: center;
     width: 50%;
 }
 
@@ -61,6 +71,7 @@ footer {
     overflow-y: auto;
 }
 
+hr,
 ol {
     width: auto;
 }
@@ -72,4 +83,14 @@ li {
 .info {
     padding: 50px;
     height: 60%;
+}
+
+.logos {
+    width: 80%;
+}
+
+.logo {
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 50%;
 }
