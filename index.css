@@ -1,0 +1,96 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: bisque; */
+    width: 70vw;
+    min-width: 300px;
+    height: 100vh;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header,
+main,
+footer {
+    background-color: bisque;
+}
+
+header {
+    text-align: center;
+    padding: 10px 10px;
+    height: 10vh;
+    ;
+}
+
+main {
+    height: 80vh;
+    vertical-align: middle;
+}
+
+footer {
+    display: flex;
+    height: 10vh;
+    background-color: gray;
+    padding-top: 20px;
+}
+
+.profileInfo {
+    height: 40%;
+    display: flex;
+}
+
+.info,
+.avatar,
+.contacts {
+    margin: 5px 5px;
+}
+
+.photo {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 90%;
+}
+
+.contacts,
+.avatar {
+    text-align: center;
+    width: 50%;
+}
+
+.info {
+    width: 98%;
+    overflow-y: auto;
+}
+
+hr,
+ol {
+    width: auto;
+}
+
+li {
+    margin: 5px 5px;
+}
+
+.info {
+    padding: 50px;
+    height: 60%;
+}
+
+.logos {
+    width: 80%;
+}
+
+.logo {
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 50%;
+}
