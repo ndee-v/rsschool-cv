@@ -1,21 +1,59 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+	background: white;
+	line-height: 1;
+	color: black;
+	}
+ol, ul {
+	list-style: none;
+	}
+
+
 *,
 *::before,
 *::after {
     box-sizing: border-box;
 }
 
+h1 {
+    margin-top: 5px;
+    font-size: large;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: medium;
+    text-decoration: underline;
+}
+
 body {
-    /* background-color: bisque; */
     width: 70vw;
-    min-width: 300px;
+    min-width: 400px;
     height: 100vh;
     margin: auto;
     font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
 }
 
 header,
-main,
-footer {
+main {
     background-color: bisque;
 }
 
@@ -39,14 +77,25 @@ footer {
 }
 
 .profileInfo {
-    height: 40%;
+    text-align: center;
+    display: inline;
+}
+
+.mainInfo {
+    height: 30%;
     display: flex;
 }
 
 .info,
 .avatar,
 .contacts {
+    text-align: center;
     margin: 5px 5px;
+}
+
+.info ul {
+    list-style:square; 
+    text-align: start;
 }
 
 .photo {
@@ -58,6 +107,7 @@ footer {
     margin-right: auto;
     width: auto;
     height: 90%;
+    max-width: 300px;
 }
 
 .contacts,
@@ -85,7 +135,7 @@ li {
     height: 60%;
 }
 
-.logos {
+.links {
     width: 80%;
 }
 
